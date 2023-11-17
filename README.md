@@ -54,7 +54,7 @@ Once the environment is set up, we can run the API as follows:
   probability of churning for each player.
 
 - **Input**: `JSON` file containing the **merge between two datasets:
-  *casino* and *players***. See the template file `test.json` in the
+  *casino* and *players***. See the template file `example.json` in the
   `examples/` folder.
 
 - **Response**:
@@ -73,7 +73,7 @@ repository that contains an example of the input format this API accept.
 Suppose you are running the API locally on default port `1234`. You can
 make a request to the API as follows:
 
-    curl -XPOST -H "Content-Type: application/json" -d @examples/test.json http://127.0.0.1:5000/predict_churn
+    curl -XPOST -H "Content-Type: application/json" -d @examples/example.json http://127.0.0.1:5000/predict_churn
 
 ## Author <a name="authors"></a>
 
